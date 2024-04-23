@@ -14,7 +14,7 @@ https://github.com/VisionExpo/Kidney-Disease-Classifiacation-MLflow-DVC
 conda create -n Kidney-Disease-Classification-MLflow-DVC python=3.8 -y
 '''
 
-'''bash
+''' bash
 conda activate Kidney-Disease-Classifiacation-MLflow-DVC 
 '''
 
