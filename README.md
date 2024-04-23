@@ -4,13 +4,13 @@
 
 # step 1:   Clone the repository
 
-'''bash
+''' bash
 https://github.com/VisionExpo/Kidney-Disease-Classifiacation-MLflow-DVC
 '''
 
 # step 2:    Create a conda environment after cloning the repository
 
-'''bash
+''' bash
 conda create -n Kidney-Disease-Classification-MLflow-DVC python=3.8 -y
 '''
 
