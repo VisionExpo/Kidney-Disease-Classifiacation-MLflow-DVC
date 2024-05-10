@@ -34,7 +34,7 @@ except Exception as e:
 
 
 
-'''STAGE_NAME = "Training"
+STAGE_NAME = "Training"
 try: 
    logger.info(f"*******************")
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
@@ -48,7 +48,7 @@ except Exception as e:
 
 
 
-STAGE_NAME = "Evaluation stage"
+'''STAGE_NAME = "Evaluation stage"
 try:
    logger.info(f"*******************")
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
