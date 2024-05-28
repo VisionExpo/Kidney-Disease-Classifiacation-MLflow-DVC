@@ -1,0 +1,12 @@
+prefix=c:/Vishal/Kidney-Disease-Classifiacation-MLflow-DVC/kidney/Library
+exec_prefix=c:/Vishal/Kidney-Disease-Classifiacation-MLflow-DVC/kidney/Library
+libdir=c:/Vishal/Kidney-Disease-Classifiacation-MLflow-DVC/kidney/Library/lib
+includedir=c:/Vishal/Kidney-Disease-Classifiacation-MLflow-DVC/kidney/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 

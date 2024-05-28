@@ -1,4 +1,4 @@
-# Kidney-Disease-Classifiacation-MLflow-DVC
+# Kidney-Disease-Classification-MLflow-DVC
 
 
 ## Workflows
@@ -13,24 +13,36 @@
 8. Update the dvc.yaml
 9. app.py
 
+# How to run?
+### STEPS:
 
-# How to run this project
+Clone the repository
 
-## step 1:   Clone the repository
-'''bash
+```bash
 https://github.com/VisionExpo/Kidney-Disease-Classifiacation-MLflow-DVC
-'''
+```
+### STEP 01- Create a conda environment after opening the repository
 
-## step 2:    Create a conda environment after cloning the repository
-'''bash
-conda create -n Kidney-Disease-Classification-MLflow-DVC python=3.8 -y
-'''
+```bash
+conda create -n cnncls python=3.12.3 -y
+```
 
-'''bash
-conda activate Kidney-Disease-Classifiacation-MLflow-DVC 
-'''
+```bash
+conda activate cnncls
+```
 
-## step 3:    Install the requirements.
-'''bash
+
+### STEP 02- install the requirements
+```bash
 pip install -r requirements.txt
-'''
+```
+
+```bash
+# Finally run the following command
+python app.py
+```
+
+Now,
+```bash
+open up you local host and port
+```
